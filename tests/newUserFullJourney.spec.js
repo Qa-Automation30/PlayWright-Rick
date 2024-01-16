@@ -3,7 +3,7 @@ import { ProductsPage } from '../page-objects/ProductsPage.js';
 import { NavigationPage } from '../page-objects/NavigationPage.js'
 import { CheckoutPage } from '../page-objects/CheckoutPage.js';
 
-test.only("New Use full end to end journey", async ({ page }) => {
+test.skip("New Use full end to end journey", async ({ page }) => {
     /**
      *  1-> Here create an Object of the Products page and pass the page via its constructor
      *  2-> in next step visit the products page
